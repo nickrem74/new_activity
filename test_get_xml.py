@@ -1,3 +1,4 @@
+import os
 import xml.etree.ElementTree as ET
 
 tree = ET.parse(r"D:\data\module\params\database.xml")
