@@ -25,11 +25,14 @@ class Afficheur(Thread):
 # Création des threads
 thread_1 = Afficheur("1")
 thread_2 = Afficheur("2")
+thread_3 = Afficheur("3")
 
 # Lancement des threads
 thread_1.start()
 thread_2.start()
+thread_3.start()
 
 # Attend que les threads se terminent
 thread_1.join()
 thread_2.join()
+thread_3.join()
